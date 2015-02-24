@@ -1,0 +1,7 @@
+<suite name="ModuleSuite3" verbose="1">
+	<test name="SmokeTest1">
+		<classes>
+			<class name="com.xml.tests.TestPage" />
+		</classes>
+	</test>
+</suite>

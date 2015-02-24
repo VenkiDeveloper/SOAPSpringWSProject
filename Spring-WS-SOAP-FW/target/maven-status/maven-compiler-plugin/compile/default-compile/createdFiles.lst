@@ -1,0 +1,5 @@
+com\atmecs\soap\services\ConversionRate.class
+com\atmecs\soap\services\ConversionRateResponse.class
+com\atmecs\soap\services\package-info.class
+com\atmecs\soap\services\ObjectFactory.class
+com\atmecs\soap\services\Currency.class

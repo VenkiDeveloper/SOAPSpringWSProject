@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="64" started-at="2015-01-30T09:34:06Z" finished-at="2015-01-30T09:34:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="64" started-at="2015-01-30T09:34:06Z" finished-at="2015-01-30T09:34:06Z">
+      <class name="GmailLoginPage">
+        <test-method status="PASS" signature="imageComparison()[pri:0, instance:GmailLoginPage@67117f44]" name="imageComparison" duration-ms="53" started-at="2015-01-30T15:04:06Z" finished-at="2015-01-30T15:04:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imageComparison -->
+      </class> <!-- GmailLoginPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

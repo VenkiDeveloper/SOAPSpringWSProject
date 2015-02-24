@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ModuleSuite1" verbose="1">
+	<test name="RegressionTest1">
+		<classes>
+			<class name="com.xml.tests.TestPage" />
+		</classes>
+	</test>
+</suite>

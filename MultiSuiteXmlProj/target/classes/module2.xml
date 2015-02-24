@@ -1,0 +1,7 @@
+<suite name="ModuleSuite2" verbose="1">
+	<test name="RegressionTest2">
+		<classes>
+			<class name="com.xml.tests.TestPage" />
+		</classes>
+	</test>
+</suite>

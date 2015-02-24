@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="SmokeSuite" verbose="1" >
+ <suite-files>
+ <suite-file path="src/resources/module3.xml"></suite-file>
+ <suite-file path="src/resources/module4.xml"></suite-file>
+ </suite-files>
+</suite>

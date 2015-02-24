@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.atmecs.services.test.TestCurrencyWS
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.311 sec <<< FAILURE!
+testCurrencyRate(com.atmecs.services.test.TestCurrencyWS)  Time elapsed: 1.373 sec  <<< FAILURE!
+java.lang.AssertionError: expected [62.215] but found [62.2299]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:165)
+	at com.atmecs.services.test.TestCurrencyWS.testCurrencyRate(TestCurrencyWS.java:40)
+

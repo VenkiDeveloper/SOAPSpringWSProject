@@ -1,0 +1,88 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>wsdl2code</groupId>
+	<artifactId>WSDL2Java</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>WSDL2Java</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.ws</groupId>
+			<artifactId>spring-ws-core</artifactId>
+			<version>2.1.3.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.2.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.8.21</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.xml.ws</groupId>
+			<artifactId>jaxws-api</artifactId>
+			<version>2.2.11</version>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.xml.bind</groupId>
+			<artifactId>jaxb-api</artifactId>
+			<version>2.2.12</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+
+		<plugins>
+
+			<plugin>
+				<!-- <groupId>org.jvnet.jax-ws-commons</groupId> <artifactId>jaxws-maven-plugin</artifactId> 
+					<version>2.3</version> -->
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>jaxws-maven-plugin</artifactId>
+				<version>1.12</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>wsimport</goal>
+						</goals>
+						<configuration>
+							<wsdlDirectory>src/main/resources</wsdlDirectory>
+							<wsdlFiles>
+								<wsdlFile>CurrencyConvertor.wsdl</wsdlFile>
+							</wsdlFiles>
+							<packageName>com.atmecs.sevices</packageName>
+							<sourceDestDir>src/main/java</sourceDestDir>
+							<keep>true</keep>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+		</plugins>
+
+
+	</build>
+</project>
+
+
+<!-- <plugin> <groupId>org.codehaus.mojo</groupId> <artifactId>jaxws-maven-plugin</artifactId> 
+	<version>1.12</version> <executions> <execution> <goals> <goal>wsimport</goal> 
+	</goals> <configuration> <wsdlUrls> <wsdlLocation>http://wsf.cdyne.com/WeatherWS/Weather.asmx?wsdl</wsdlLocation> 
+	</wsdlUrls> <wsdlDirectory>src/main/resources/wsdl</wsdlDirectory> <wsdlFiles> 
+	<wsdlFile>CurrencyConvertor.wsdl</wsdlFile> </wsdlFiles> <packageName>com.atmecs.sevices</packageName> 
+	<sourceDestDir>src/main/curr</sourceDestDir> </configuration> </execution> 
+	</executions> </plugin> -->

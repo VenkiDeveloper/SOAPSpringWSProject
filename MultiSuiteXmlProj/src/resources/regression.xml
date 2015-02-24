@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="RSuite" verbose="1" >
+ <suite-files>
+ <suite-file path="src/resources/module1.xml"></suite-file>
+ <suite-file path="src/resources/module2.xml"></suite-file>
+ </suite-files>
+</suite>

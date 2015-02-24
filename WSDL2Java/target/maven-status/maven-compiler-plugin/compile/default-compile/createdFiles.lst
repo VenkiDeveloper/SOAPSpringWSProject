@@ -1,0 +1,14 @@
+com\atmecs\sevices\package-info.class
+com\atmecs\sevices\CurrencyConvertor.class
+com\atmecs\services\CurrencyConvertor.class
+com\atmecs\sevices\Currency.class
+com\atmecs\services\ConversionRate.class
+com\atmecs\services\ConversionRateResponse.class
+com\atmecs\services\package-info.class
+com\atmecs\sevices\ConversionRate.class
+com\atmecs\sevices\ConversionRateResponse.class
+com\atmecs\sevices\ObjectFactory.class
+com\atmecs\sevices\CurrencyConvertorSoap.class
+com\atmecs\services\Currency.class
+com\atmecs\services\CurrencyConvertorSoap.class
+com\atmecs\services\ObjectFactory.class

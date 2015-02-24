@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15275" started-at="2015-02-24T09:30:20Z" finished-at="2015-02-24T09:30:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15275" started-at="2015-02-24T09:30:20Z" finished-at="2015-02-24T09:30:35Z">
+      <class name="com.saucelabs.selenium.tests.SampleSeleniumCloud">
+        <test-method status="PASS" signature="createDriver(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.saucelabs.selenium.tests.SampleSeleniumCloud@19bb089b]" name="createDriver" is-config="true" duration-ms="12768" started-at="2015-02-24T15:00:20Z" finished-at="2015-02-24T15:00:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Venki243]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ec89104a-307c-4e96-8201-5ae6accafef6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[28.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[public void com.saucelabs.selenium.tests.SampleSeleniumCloud.testGoogle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDriver -->
+        <test-method status="PASS" signature="testGoogle()[pri:0, instance:com.saucelabs.selenium.tests.SampleSeleniumCloud@19bb089b]" name="testGoogle" duration-ms="1758" started-at="2015-02-24T15:00:33Z" finished-at="2015-02-24T15:00:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogle -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.saucelabs.selenium.tests.SampleSeleniumCloud@19bb089b]" name="closeDriver" is-config="true" duration-ms="734" started-at="2015-02-24T15:00:34Z" finished-at="2015-02-24T15:00:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.saucelabs.selenium.tests.SampleSeleniumCloud -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

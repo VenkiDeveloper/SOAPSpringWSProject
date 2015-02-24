@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionSuite2]">
+  <test name="RegressionTest2(failed)">
+    <classes>
+      <class name="com.xml.tests.TestPage">
+        <methods>
+          <include name="testLogo"/>
+          <include name="testLogo"/>
+          <include name="open"/>
+        </methods>
+      </class> <!-- com.xml.tests.TestPage -->
+    </classes>
+  </test> <!-- RegressionTest2(failed) -->
+</suite> <!-- Failed suite [RegressionSuite2] -->
